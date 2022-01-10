@@ -1,9 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using DesignPatterns.Strategy;
 
-Imposto iss = new ISS();
-Imposto icms = new ICMS();
-Imposto iccc = new ICCC();
+IImposto iss = new ISS();
+IImposto icms = new ICMS();
+IImposto iccc = new ICCC();
 
 Orcamento orcamento = new Orcamento(500.0);
 

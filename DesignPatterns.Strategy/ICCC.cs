@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.Strategy
 {
-    public class ICCC : Imposto
+    public class ICCC : IImposto
     {
         public double Calcula(Orcamento orcamento)
         {
